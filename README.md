@@ -1,16 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# VitePress (alpha) 📝💨
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![Test](https://github.com/vuejs/vitepress/workflows/Test/badge.svg)](https://github.com/vuejs/vitepress/actions)
+[![npm](https://img.shields.io/npm/v/vitepress)](https://www.npmjs.com/package/vitepress)
 
-## Recommended IDE Setup
+---
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+VitePress is [VuePress](https://vuepress.vuejs.org)' spiritual successor, built on top of [vite](https://github.com/vitejs/vite).
 
-## Type Support For `.vue` Imports in TS
+Currently, it's in the `alpha` stage. It is already suitable for out-of-the-box documentation use, but the config and theming API may still change between minor releases.
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+## Documentation
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+To check out docs, visit [vitepress.vuejs.org](https://vitepress.vuejs.org).
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+## Changelog
+
+Detailed changes for each release are documented in the [CHANGELOG](https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md).
+
+## Contribution
+
+Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.
+
+## License
+
+[MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)
+
+Copyright (c) 2019-present, Yuxi (Evan) You
