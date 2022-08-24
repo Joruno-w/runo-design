@@ -22,7 +22,5 @@ Detailed changes for each release are documented in the [CHANGELOG](https://gith
 Please make sure to read the [Contributing Guide](https://github.com/vuejs/vitepress/blob/main/.github/contributing.md) before making a pull request.
 
 ## License
-
 [MIT](https://github.com/vuejs/vitepress/blob/main/LICENSE)
-
 Copyright (c) 2019-present, Yuxi (Evan) You
