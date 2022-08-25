@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import { version } from '../../package.json'
 
 export default defineConfig({
+  lang: 'en-US',
   title: 'VitePress',
   description: 'Vite & Vue powered static site generator.',
 
@@ -10,7 +11,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: nav(),
-
+    logo: '',
     sidebar: {
       '/guide/': sidebarGuide(),
       '/config/': sidebarConfig()
